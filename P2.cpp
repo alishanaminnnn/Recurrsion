@@ -42,9 +42,7 @@ int numPower(int a, int b) {
   }
   return a * numPower(a, b - 1);
 }
-
 int main() {
-  cout << numPower(2,4);
 
   return 0;
 }
