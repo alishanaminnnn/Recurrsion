@@ -35,10 +35,16 @@ int Factorial(int x) {
   return x * Factorial(x - 1);
 }
 
-
+// Power of A^b
+int numPower(int a, int b) {
+  if (b == 1) {
+    return a;
+  }
+  return a * numPower(a, b - 1);
+}
 
 int main() {
-  cout << Factorial(5);
+  cout << numPower(2,4);
 
   return 0;
 }
