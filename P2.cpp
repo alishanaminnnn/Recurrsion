@@ -33,11 +33,12 @@ int Factorial(int x) {
     return 1;
   }
   return x * Factorial(x - 1);
-;
 }
 
+
+
 int main() {
-  cout<<Factorial(5);
+  cout << Factorial(5);
 
   return 0;
 }
